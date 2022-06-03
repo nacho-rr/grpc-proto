@@ -36,5 +36,5 @@ message ValidateRequest {
 message ValidetaResponse {
   int32 status = 1;
   string userId = 2;
-  repeated error = 3;
+  repeated string error = 3;
 }
